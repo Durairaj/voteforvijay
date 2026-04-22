@@ -1,0 +1,21 @@
+:root {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  color: #111216;
+  background:
+    radial-gradient(circle at 14% 12%, rgba(246, 199, 68, 0.34), transparent 32%),
+    radial-gradient(circle at 84% 20%, rgba(206, 47, 47, 0.17), transparent 35%),
+    linear-gradient(145deg, #fff8ef 0%, #fff1e4 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
